@@ -5,16 +5,80 @@
       "PackagePath": "staticwebassets/Pay2Craft.bundle.scp.css"
     },
     {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/css/shCore.css",
+      "PackagePath": "staticwebassets/css/shCore.css"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/css/shCoreMidnight.css",
+      "PackagePath": "staticwebassets/css/shCoreMidnight.css"
+    },
+    {
       "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/css/tailwind.css",
+      "PackagePath": "staticwebassets/css/tailwind.css"
     },
     {
       "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/favicon.png",
+      "PackagePath": "staticwebassets/images/favicon.png"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/icons/group-2.png",
+      "PackagePath": "staticwebassets/images/icons/group-2.png"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/icons/home.png",
+      "PackagePath": "staticwebassets/images/icons/home.png"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/icons/page.png",
+      "PackagePath": "staticwebassets/images/icons/page.png"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/icons/video.png",
+      "PackagePath": "staticwebassets/images/icons/video.png"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/js/script.js",
+      "PackagePath": "staticwebassets/js/script.js"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/js/shBrushJScript.js",
+      "PackagePath": "staticwebassets/js/shBrushJScript.js"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/js/shBrushXml.js",
+      "PackagePath": "staticwebassets/js/shBrushXml.js"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/js/shCore.js",
+      "PackagePath": "staticwebassets/js/shCore.js"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/js/simplebar.js",
+      "PackagePath": "staticwebassets/js/simplebar.js"
+    },
+    {
       "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/js/uikit.min.js",
+      "PackagePath": "staticwebassets/js/uikit.min.js"
     },
     {
       "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/lib/bootstrap/LICENSE",

@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/Pages/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
