@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ijf8g1j1mzphFP09uYYt5mDv5aXsZXWNq+n4P8jJQxw=",
+  "Hash": "zXuaeY7cADbCsovqu9ajhVIquLLdTx8jyjNrP92ZtF8=",
   "Source": "Pay2Craft",
   "BasePath": "_content/Pay2Craft",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/avatars/user.png",
+      "SourceId": "Pay2Craft",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/",
+      "BasePath": "_content/Pay2Craft",
+      "RelativePath": "images/avatars/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/avatars/user.png"
     },
     {
       "Identity": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/favicon.png",
