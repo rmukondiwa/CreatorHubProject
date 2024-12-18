@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets/images/logo.png"
     },
     {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/pay2craftLogo.png",
+      "PackagePath": "staticwebassets/images/pay2craftLogo.png"
+    },
+    {
       "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/js/script.js",
       "PackagePath": "staticwebassets/js/script.js"
     },
