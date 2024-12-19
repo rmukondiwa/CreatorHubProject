@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/P2C.png",
+      "PackagePath": "staticwebassets/images/P2C.png"
+    },
+    {
       "Id": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/avatars/user.png",
       "PackagePath": "staticwebassets/images/avatars/user.png"
     },

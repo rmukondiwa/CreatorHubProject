@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E5jt4neYQ4HR7/pmXZt45EzbBT8iQGk5MjtTFUiF6b0=",
+  "Hash": "QXu18u8WJ8BuJduiYcRMJZacRMtuCQecp5GVlaBl2xo=",
   "Source": "Pay2Craft",
   "BasePath": "_content/Pay2Craft",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/logo.png"
+    },
+    {
+      "Identity": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/P2C.png",
+      "SourceId": "Pay2Craft",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/",
+      "BasePath": "_content/Pay2Craft",
+      "RelativePath": "images/P2C.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/P2C.png"
     },
     {
       "Identity": "/Users/rtmukondiwa/CreatorHubProject/Pay2Craft/Pay2Craft/wwwroot/images/pay2craftLogo.png",
