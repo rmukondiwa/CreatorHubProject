@@ -30,31 +30,14 @@
             Create Post
         </button>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        @for (int i = 0; i < 9; i++)
-        {
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <img src="https://via.placeholder.com/300x200" alt="Post Image" class="w-full">
-                <div class="p-4">
-                    <h3 class="text-gray-800 font-semibold">John Doe</h3>
-                    <p class="text-gray-600 text-sm">This is a dummy post description.</p>
-                    <div class="mt-4 flex justify-between items-center text-gray-600">
-                        <button class="like-button flex items-center" onclick="toggleLike(this)">
-                            <svg width="20px" height="20px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="mr-1">
-                                <path d="M21.886 5.115c3.521 0 6.376 2.855 6.376 6.376 0 1.809-0.754 3.439-1.964 4.6l-10.297 10.349-10.484-10.536c-1.1-1.146-1.778-2.699-1.778-4.413 0-3.522 2.855-6.376 6.376-6.376 2.652 0 4.925 1.62 5.886 3.924 0.961-2.304 3.234-3.924 5.886-3.924zM21.886 4.049c-2.345 0-4.499 1.089-5.886 2.884-1.386-1.795-3.54-2.884-5.886-2.884-4.104 0-7.442 3.339-7.442 7.442 0 1.928 0.737 3.758 2.075 5.152l11.253 11.309 11.053-11.108c1.46-1.402 2.275-3.308 2.275-5.352 0-4.104-3.339-7.442-7.442-7.442v0z" fill="#000000"></path>
-                            </svg>
-                            <span>56</span>
-                        </button>
-                        <button class="like-button flex items-center" onclick="toggleLike(this)">
-                            <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="mr-1">
-                                <path d="M12,2A10,10,0,0,0,2,12a9.89,9.89,0,0,0,2.26,6.33l-2,2a1,1,0,0,0-.21,1.09A1,1,0,0,0,3,22h9A10,10,0,0,0,12,2Zm0,18H5.41l.93-.93a1,1,0,0,0,0-1.41A8,8,0,1,1,12,20Z"/>
-                            </svg>
-                            <span>12</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        }
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-6">
+    <!-- Example Placeholder Post -->
+    <div class="bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg transition duration-300" onclick="openPostModal('Post Title', 'This is a more detailed description of the post.')">
+        <img src="https://via.placeholder.com/150" alt="Post Image" class="rounded-t-lg w-full h-40 object-cover">
+        <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800">Post Title</h3>
+            <p class="text-sm text-gray-600 truncate">Brief description of the post...</p>
+        </div>
     </div>
 </section>
 
@@ -100,6 +83,113 @@
     </div>
 </div>
 
+<!-- Modal -->
+<div id="postModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+    <div class="bg-white rounded-lg shadow-lg max-w-4xl w-full grid grid-cols-1 md:grid-cols-3 relative">
+        <!-- Image Section -->
+        <div class="md:col-span-2">
+            <img id="postImage" src="" alt="Post Image" class="w-full h-full object-cover rounded-l-lg">
+        </div>
+
+        <!-- Content Section -->
+        <div class="p-6">
+            <button class="absolute top-2 right-2 text-gray-500 hover:text-gray-800" onclick="closePostModal()">
+                &times;
+            </button>
+            <h3 id="postTitle" class="text-lg font-semibold text-gray-800 mb-2"></h3>
+            <p id="postDescription" class="text-sm text-gray-600 mb-4"></p>
+            
+            <!-- Actions -->
+            <div class="flex items-center space-x-4 mb-4">
+                <!-- Like Button with Custom SVG -->
+                <button class="py-2 px-4 flex items-center space-x-2 text-gray-800 hover:text-blue-600 transition">
+                    <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                        <path d="M21.886 5.115c3.521 0 6.376 2.855 6.376 6.376 0 1.809-0.754 3.439-1.964 4.6l-10.297 10.349-10.484-10.536c-1.1-1.146-1.778-2.699-1.778-4.413 0-3.522 2.855-6.376 6.376-6.376 2.652 0 4.925 1.62 5.886 3.924 0.961-2.304 3.234-3.924 5.886-3.924zM21.886 4.049c-2.345 0-4.499 1.089-5.886 2.884-1.386-1.795-3.54-2.884-5.886-2.884-4.104 0-7.442 3.339-7.442 7.442 0 1.928 0.737 3.758 2.075 5.152l11.253 11.309 11.053-11.108c1.46-1.402 2.275-3.308 2.275-5.352 0-4.104-3.339-7.442-7.442-7.442v0z"></path>
+                    </svg>
+                    <span>Like</span>
+                </button>
+                
+                <!-- offer Button -->
+                <button class="py-2 px-4 bg-green-500 text-white rounded-md shadow-sm hover:bg-red-700 transition" onclick="openOfferModal()">
+                    Offer
+                </button>
+            </div>
+
+            <!-- comment Button -->
+            <div>
+                <button class="w-full py-2 px-4 bg-blue-500 text-white rounded-md shadow-sm hover:bg-green-600 transition">
+                    comment
+                </button>
+            </div>
+
+            <!-- Dummy Comments Section -->
+            <div class="mt-6">
+                <h4 class="text-lg font-semibold text-gray-800 mb-3">Offers</h4>
+                <div class="space-y-4 max-h-64 overflow-y-auto">
+                    <!-- Dummy Comment -->
+                    <div class="flex items-start space-x-4">
+                        <img src="https://via.placeholder.com/40" alt="User Avatar" class="w-10 h-10 rounded-full">
+                        <div>
+                            <p class="text-sm font-semibold text-gray-800">User1</p>
+                            <p class="text-sm text-gray-600">Expert graphic design for your brand, delivered in 24 hrs! — $150</p>
+                        </div>
+                    </div>
+                    <!-- Dummy Comment -->
+                    <div class="flex items-start space-x-4">
+                        <img src="https://via.placeholder.com/40" alt="User Avatar" class="w-10 h-10 rounded-full">
+                        <div>
+                            <p class="text-sm font-semibold text-gray-800">User2</p>
+                            <p class="text-sm text-gray-600">Affordable website development with responsive design. — $200</p>
+                        </div>
+                    </div>
+                    <!-- Dummy Comment -->
+                    <div class="flex items-start space-x-4">
+                        <img src="https://via.placeholder.com/40" alt="User Avatar" class="w-10 h-10 rounded-full">
+                        <div>
+                            <p class="text-sm font-semibold text-gray-800">User3</p>
+                            <p class="text-sm text-gray-600">Professional social media marketing with proven results! — $100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Offer Modal -->
+<div id="offerModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+    <div class="bg-white rounded-lg shadow-lg w-full max-w-lg p-6">
+        <button class="absolute top-2 right-2 text-gray-500 hover:text-gray-800" onclick="closeOfferModal()">
+            &times;
+        </button>
+        <h2 class="text-lg font-semibold text-gray-800 mb-4">Make an Offer</h2>
+        <form>
+            <!-- Tag Line -->
+            <div class="mb-4">
+                <label for="tagLine" class="block text-sm font-medium text-gray-700">Tag Line</label>
+                <input type="text" id="tagLine" name="tagLine" maxlength="70" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Enter a short tag line for your offer (70 characters max)">
+                <small class="text-gray-500">Characters left: <span id="tagLineCharCount">70</span></small>
+            </div>
+            <div class="mb-4">
+                <label for="offerAmount" class="block text-sm font-medium text-gray-700">Offer Amount</label>
+                <input type="number" id="offerAmount" name="offerAmount" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="$0.00">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                <textarea id="message" name="message" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Add a message..."></textarea>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button type="submit" class="py-2 px-4 bg-green-500 text-white rounded-md shadow-sm hover:bg-green-600 transition">
+                    Submit Offer
+                </button>
+                <button type="button" class="py-2 px-4 bg-yellow-500 text-white rounded-md shadow-sm hover:bg-yellow-600 transition" onclick="closeOfferModal()">
+                    Cancel
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
 <script>
     const createPostButton = document.getElementById('createPostButton');
     const createPostModal = document.getElementById('createPostModal');
@@ -118,4 +208,33 @@
             createPostModal.classList.add('hidden');
         }
     });
+</script>
+<script>
+    function openPostModal(title, description, imageUrl) {
+        document.getElementById("postTitle").textContent = title;
+        document.getElementById("postDescription").textContent = description;
+        document.getElementById("postImage").src = imageUrl;
+        document.getElementById("postModal").classList.remove("hidden");
+    }
+
+    function closePostModal() {
+        document.getElementById("postModal").classList.add("hidden");
+    }
+
+    // Update character count for Tag Line
+    const tagLineInput = document.getElementById("tagLine");
+    const tagLineCharCount = document.getElementById("tagLineCharCount");
+
+    tagLineInput.addEventListener("input", () => {
+        const remaining = 70 - tagLineInput.value.length;
+        tagLineCharCount.textContent = remaining;
+    });
+
+    function openOfferModal() {
+        document.getElementById("offerModal").classList.remove("hidden");
+    }
+
+    function closeOfferModal() {
+        document.getElementById("offerModal").classList.add("hidden");
+    }
 </script>
