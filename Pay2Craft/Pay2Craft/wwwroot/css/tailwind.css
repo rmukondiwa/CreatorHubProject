@@ -651,12 +651,12 @@ input[type='text'],
   line-height: 1.25rem;
   font-weight: 500;
   --tw-text-opacity: 1 !important;
-  color: rgb(75 85 99 / var(--tw-text-opacity)) !important;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 input[type='text']::-moz-placeholder, input[type='password']::-moz-placeholder, input[type='email']::-moz-placeholder, input[type='number']::-moz-placeholder, input[type='url']::-moz-placeholder, input[type='date']::-moz-placeholder, select::-moz-placeholder, textarea::-moz-placeholder {
   --tw-text-opacity: 1 !important;
-  color: rgb(75 85 99 / var(--tw-text-opacity)) !important;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 input[type='text']::placeholder,
@@ -668,7 +668,7 @@ input[type='text']::placeholder,
     select::placeholder, 
     textarea::placeholder {
   --tw-text-opacity: 1 !important;
-  color: rgb(75 85 99 / var(--tw-text-opacity)) !important;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -680,11 +680,11 @@ input[type='text']::placeholder,
     input[type='date'],
     select, 
     textarea {
-    color: rgb(255 255 255 / 0.9) !important;
+    color: rgb(255 255 255 / 0.9);
   }
 
   input[type='text']::-moz-placeholder, input[type='password']::-moz-placeholder, input[type='email']::-moz-placeholder, input[type='number']::-moz-placeholder, input[type='url']::-moz-placeholder, input[type='date']::-moz-placeholder, select::-moz-placeholder, textarea::-moz-placeholder {
-    color: rgb(255 255 255 / 0.9) !important;
+    color: rgb(255 255 255 / 0.9);
   }
 
   input[type='text']::placeholder,
@@ -695,7 +695,7 @@ input[type='text']::placeholder,
     input[type='date']::placeholder,
     select::placeholder, 
     textarea::placeholder {
-    color: rgb(255 255 255 / 0.9) !important;
+    color: rgb(255 255 255 / 0.9);
   }
 }
 
@@ -779,7 +779,7 @@ input[type='radio'],
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
   --tw-text-opacity: 1 !important;
-  color: rgb(2 132 199 / var(--tw-text-opacity)) !important;
+  color: rgb(2 132 199 / var(--tw-text-opacity));
 }
 
 input[type='radio']:focus,
@@ -1239,13 +1239,13 @@ input:checked + .switch-button {
 
 h1, h2, h3, h4, h5, h6 {
   --tw-text-opacity: 1 !important;
-  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @media (prefers-color-scheme: dark) {
   h1, h2, h3, h4, h5, h6 {
     --tw-text-opacity: 1 !important;
-    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
@@ -1591,7 +1591,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (prefers-color-scheme: dark) {
   .card-title {
     --tw-text-opacity: 1 !important;
-    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
@@ -1613,7 +1613,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (prefers-color-scheme: dark) {
   .card-text {
     --tw-text-opacity: 1 !important;
-    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
@@ -1700,7 +1700,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (prefers-color-scheme: dark) {
   .card-list-title {
     --tw-text-opacity: 1 !important;
-    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
@@ -1719,7 +1719,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (prefers-color-scheme: dark) {
   .card-list-text {
     --tw-text-opacity: 1 !important;
-    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) ;
   }
 }
 
@@ -1745,7 +1745,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (prefers-color-scheme: dark) {
   .card-list-info {
     --tw-text-opacity: 1 !important;
-    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) ;
   }
 }
 

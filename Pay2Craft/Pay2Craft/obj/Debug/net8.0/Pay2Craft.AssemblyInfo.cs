@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pay2Craft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+490bc145a69f417c0f6b068de6689cd3a72ff0bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6a60d4ca0aea0b3233ada47d17a9440bc98a3a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pay2Craft")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pay2Craft")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
