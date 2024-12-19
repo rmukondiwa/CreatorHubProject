@@ -4,15 +4,22 @@
     ViewData["Title"] = "Pay2Craft";
 }
 
-<div>
-            <label for="UserName">UserName:</label>
-            <input type="text" name="UserName" value="" />
-</div>
-<div>
-            <label for="Password">Password:</label>
-            <input type="text" name="Password" value="" />
-</div>
-<div>
-            <label>&nbsp;</label>
-            <input type="submit" value="Submit" class="submit" />
+<div class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <form>
+            <div class="mb-4">
+                <label for="UserName" class="block text-sm font-medium text-gray-700">User Name:</label>
+                <input type="text" name="UserName" id="UserName" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            </div>
+            <div class="mb-4">
+                <label for="Password" class="block text-sm font-medium text-gray-700">Password:</label>
+                <input type="password" name="Password" id="Password" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            </div>
+            <div>
+                <input type="submit" value="Sign In"
+                       class="w-full py-2 px-4 text-white font-medium rounded-md shadow-md hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2"
+                       style="background-color: #00bf63;" />
+            </div>
+        </form>
+    </div>
 </div>
